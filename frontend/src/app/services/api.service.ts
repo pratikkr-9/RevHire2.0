@@ -3,7 +3,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Job, Application, Profile, Company, Notification } from '../models/models';
 
-const BASE = 'http://localhost:8080/api';
+const BASE = '/api';
 
 @Injectable({ providedIn: 'root' })
 export class JobService {

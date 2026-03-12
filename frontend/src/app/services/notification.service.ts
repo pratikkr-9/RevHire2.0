@@ -16,7 +16,7 @@ export interface Notification {
 })
 export class NotificationService {
 
-  private baseUrl = 'http://localhost:8080/api/notifications';
+  private baseUrl = '/api/notifications';
 
   constructor(private http: HttpClient) {}
 
